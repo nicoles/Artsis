@@ -1,0 +1,12 @@
+{
+  "title": "CUORE",
+  "date": "2006 - 2011",
+  "tags": ["physics", "neutrinos", "double beta decay"],
+  "description": "The Cryogenic Underground Observatory for Rare Events (CUORE), and its prototype CUORICINO are neutrinoless double beta decay experiments located at the Gran Sasso National Laboratory in Italy. My work on CUORE has included the following roles: Helped develop object-oriented (c++) analysis framework for Cuoricino/CUORE Developed automatic calibration software Installed detectors and analyzed data for Cuoricino muon detection system Helped prepare and install detectors for CUORE R&D runs Worked on simulating backgrounds in Cuoricino with Geant4 Analyzed Cuoricino data for 2-neutrino double beta decay (thesis work) More information is available at the CUORE LBL homepage.",
+  "images": [
+    "05.CUORE-cryostat.png",
+    "04.cleanroom.jpg",
+    "03.cuoricino_tower.png",
+    "02.4CrystalAssembly-2.jpg"
+  ]
+}

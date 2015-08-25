@@ -1,0 +1,18 @@
+# .pairs - configuration for 'git pair'
+#
+# To use:
+#    gem install pivotal_git_scripts
+#    git pair ib na
+#
+# To unset:
+#    git pair
+#
+
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  na: Nicole Aptekar; nicole
+  lk: Laura Kogler; laura
+  nja: Nicole Aptekar; nicole
+email:
+  prefix: pair
+  domain: funtimes.gov

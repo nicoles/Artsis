@@ -1,0 +1,12 @@
+<div class="welcome">
+  <h1><%= work.title %></h1>
+  <h2><%= work.date %></h2>
+  <p class="doc">
+    <% if work.images %>
+      <% work.images.each do |image| %>
+        <img src="<%="images/#{work[:key]}/#{image}"%>"></img>
+      <% end %>
+    <% end %>
+    <%= markdown work.description %>
+  </p>
+</div>
