@@ -1,10 +1,10 @@
 ---
-title: Welcome to Middleman
+title: Laura's rockin portfolio palace
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<% data.works.keys.each do |key| %>
+
+<% work = data.works[key] %>
+<a href="<%="#{key}.html"%>"><%=work.title%></a>
+
+<% end %>
